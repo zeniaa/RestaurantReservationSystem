@@ -1,0 +1,101 @@
+.elementHolder {
+    position: fixed;
+    top: 26%;
+    left: 35%;
+    right: 2%;
+    bottom: 2%;
+    border-radius: 40px;
+    background-color: floralwhite;
+    opacity: 0.6;
+}
+
+.elements {
+    position: absolute;
+    left: 10%;
+    top: 6%;
+    background-color: #541702;
+    color: floralwhite;
+    text-shadow: 0.5px 0.5px floralwhite;
+    font-size: medium;
+    opacity: +5;
+    font-weight: bold;
+    right: 10%;
+    bottom: 6%;
+    font-family: cursive;
+}
+
+.elementCenter {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    right: 5%;
+    width: 55%;
+    font-size: medium
+text-align: center;
+}
+
+.spaceSizing {
+    text-align: right;
+    height:10px;
+    width:40%;
+
+}
+
+.sizing{
+    width:70%;
+}
+
+
+.checkboxInfo {
+    position: absolute;
+    left: 30%;
+    top: 52%;
+    right: 5%;
+    width: 55%;
+    font-size: medium;
+
+}
+
+
+input[name = "myTextEditBox" ]{
+    color: darkred;
+}
+
+.TimingInfo{
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    right: 5%;
+    width: 50%;
+    font-size: medium;
+
+}
+
+.headingCentre {
+    position: absolute;
+    left: 33%;
+    top: 3%;
+    right: 5%;
+    width: 90%;
+    font-size: large;
+    color: lemonchiffon;
+}
+
+.sizing1{
+    width:100%;
+}
+
+input[name="time"]{
+
+    width: 73%;
+}
+
+input[name="button"]{
+
+    width:55%;
+}
+
+input[name="button1"]{
+
+    width:65%;
+}

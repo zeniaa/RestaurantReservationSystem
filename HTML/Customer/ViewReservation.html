@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../CSS/generic.css">
+    <link rel="stylesheet" href="../../CSS/Customer/elementHolderViewReservation.css">
+    <title>View Reservation</title>
+</head>
+<body>
+<header class="header" >
+       <span class="heading  ">MAKE &nbsp;  RESTAURANT&nbsp;  RESERVATION&nbsp;  THE&nbsp; EASY&nbsp;  WAY&nbsp;
+       </span>
+    <span class=" heading1">Be &nbsp; Our&nbsp; Guest&nbsp; </span>
+</header>
+<section class = "backgroundImage">
+
+</section>
+
+<section class ="background">
+
+    <ul>
+        <li><a href="../HomePage.html">Home</a></li>
+        <li><a href="MakeReservation.html"> Make Reservation</a></li>
+        <li><a href="ViewReservation.html">View Reservation</a></li>
+        <li><a href="../ContactUs.html">Contact us</a></li>
+        <li><a href="../Owner/LogInPage.html">Login </a></li>
+    </ul>
+</section>
+<section class="elementHolder">
+    <article class = "elements">
+        <span class = "headingCentre">
+                VIEW&nbsp; RESERVATIONS&nbsp;
+                   </span>
+        <table class="elementCenter">
+
+            <tr>
+
+                <td class="spaceSizing" colspan="3">
+
+                </td>
+
+            </tr>
+            <tr>
+                <td class="textSizing"><label>Confirmation Code : </label></td>
+                <td class="center"><label># </label><input class ="sizing" type="text"> </td>
+                <td><input name="button" type="submit" value="Search"></td>
+            </tr>
+
+        </table>
+
+        <table class="reservationInfoTable">
+
+
+            <tr>
+                <td ><label>Name:</label></td>
+                <td ><label>ZENIA&nbsp; ARORA </label></td>
+            </tr>
+            <tr>
+                <td><label>Date:</label></td>
+                <td><input class="sizing" type ="date" required></td>
+            </tr>
+            <tr>
+                <td><label>Time:</label></td>
+                <td><input class ="sizing" type ="time" required></td>
+            </tr>
+            <tr>
+                <td><label>Party Size:</label></td>
+                <td><input type ="number" required min="1" max="100"></td>
+            </tr>
+            <tr>
+                <td><label>Contact Number:</label></td>
+                <td><input class ="sizing" type="number" required></td>
+            </tr>
+            <tr>
+                <td><label>Reservation Status:</label></td>
+                <td ><label>Confirm/Waiting </label></td>
+            </tr>
+
+            <tr>
+                <td class="spaceSizing" colspan="3">
+
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td><input name="button1" type ="reset" value="Edit" onclick="location.href='ReservationDetails.html'"></td>
+                <td><input name="button1" type="submit" value="Cancel   Reservation"></td>
+            </tr>
+        </table>
+    </article>
+</section>
+
+</body>
+</html>
