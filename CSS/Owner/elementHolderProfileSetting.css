@@ -57,7 +57,7 @@ text-align: center;
 }
 
 
-input[name = myTextEditBox ]{
+input[name = "myTextEditBox" ]{
     color: darkred;
 }
 
